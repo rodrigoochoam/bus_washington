@@ -4,20 +4,20 @@ var markers = {};
 
 
 // Load the configuration from config.json
-/* fetch('config.json')
+ fetch('config.json')
     .then((response) => response.json())
-    .then((config) => { */
+    .then((config) => { 
         // Access the Mapbox access token from the loaded configuration
-        const mapboxAccessToken = process.env.mapboxKey;
+        const mapboxAccessToken = config.mapboxKey;
         ;
 
         // Now you can use mapboxAccessToken in the map initialization
-       /*  init(mapboxAccessToken); */
-   /*  })
+         init(mapboxAccessToken); 
+     })
     .catch((error) => {
         console.error('Error loading configuration:', error);
     });
- */
+ 
 
 // Load map
 function init(mapboxAccessToken) {
