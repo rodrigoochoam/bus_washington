@@ -28,7 +28,7 @@ To run the WMATA Bus Tracker locally on your machine, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd wmata-bus-tracker
+    cd bus_washington
 
 3. Start a local server to serve the project.
 
