@@ -12,7 +12,7 @@ var markers = {};
         ;
 
         // Now you can use mapboxAccessToken in the map initialization
-        init(mapboxAccessToken);
+       /*  init(mapboxAccessToken); */
    /*  })
     .catch((error) => {
         console.error('Error loading configuration:', error);
