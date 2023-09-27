@@ -1,0 +1,5 @@
+{
+
+ "mapboxKey": process.env.mapboxKey;
+
+}
